@@ -1,0 +1,80 @@
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .card{
+    margin: 50px;
+    width:500px;
+    height:500px;
+    background: #C39BD3;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .primera_imagen{
+    width: 100%;
+  }
+  
+  .rectangulo{
+    margin: auto;
+    background: #4A235A;
+    border-radius: 40px;
+    width: 470px;
+    height: 200px;
+  }
+
+  h1{
+    color: white;
+  }
+
+.cronometro{
+    width:200px;
+    height:50px;
+    top:63%;
+    left:50%;
+    position:absolute;
+    margin-left:-100px;
+    text-align:center;
+} 
+
+.reloj{
+    height:50px;
+    font-size:50px;
+    color:#FFFFFF;
+ }
+
+ .main-nav{
+    margin-top: 75px;
+    list-style: none;
+    padding-left: 99px;
+    /* background-color: #5D6D7E; */
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.main-nav__item{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color: #D5F5E3;
+}
+
+.main-nav__item a:active{
+    color: purple;
+}
+
+.main-nav__item a::after{
+    content: "  |  ";
+}
